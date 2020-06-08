@@ -1,0 +1,79 @@
+.grid {
+  width: 250px;
+  height: fit-content;
+}
+
+.list {
+  width: 500px;
+  height: fit-content;
+}
+
+.displayNote {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.textfield-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 575px;
+}
+
+.editDescription {
+  width: 525px;
+}
+
+.labelsArray {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.labelsDiv {
+  display: flex;
+  margin-left: 3px;
+}
+
+.collaborator {
+  display: flex;
+}
+
+.label-collaborator {
+  display: flex;
+  flex-wrap: wrap;
+  width: initial;
+}
+
+.dialogAction {
+  display: flex;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+
+.reminder {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+.displayBlocked {
+  display: none;
+}
+
+.grid .pinIcons {
+  display: block;
+}
+
+.list .pinIcons {
+  display: block;
+}
+
+.noteDisplayBlock {
+  visibility: hidden;
+}
+
+.grid .NoteIcon {
+  visibility: visible;
+}

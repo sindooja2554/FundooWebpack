@@ -1,0 +1,153 @@
+.menu-app-icon {
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.search-text {
+  width: 500px;
+}
+
+.search-icon {
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.grid-list {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-name {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.ownerEmail {
+  font-size: larger;
+}
+
+.ownerName {
+  font-size: x-large;
+}
+
+.profileAvatar {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+}
+
+.profileAvatarImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.badge {
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+
+.signOut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+}
+
+.signOutButton {
+  width: fit-content;
+  height: fit-content;
+}
+
+.profileUploadDialog {
+  width: 600px;
+  height: 400px;
+}
+
+#form-dialog-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid lightgrey;
+}
+
+#labelTitle {
+  font-size: x-large;
+}
+
+.chooseFile {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+#uploadButton {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid lightgray;
+  height: 35px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  width: 535px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  font-family: sans-serif;
+}
+
+// @media (min-width: 360px) {
+//   .search {
+//     width: 50px;
+//   }
+//   .menu-app-icon {
+//     width: 50%;
+//   }
+// }

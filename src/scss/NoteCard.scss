@@ -1,0 +1,64 @@
+.noteCard {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.noteDisplay {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notesDisplay {
+  width: 80%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.deleteDisplay {
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.label {
+  width: 100%;
+  display: flex;
+  margin-left: 125px;
+  margin-bottom: 5px;
+}
+
+.displayDiv {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+
+.avatar {
+  width: 100%;
+  height: 30pc;
+  display: flex;
+  justify-content: center;
+}

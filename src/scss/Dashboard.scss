@@ -1,0 +1,178 @@
+.dashboard {
+  width: 100%;
+  height: 90%;
+}
+
+.appbar {
+  width: 100%;
+  height: fit-content;
+}
+
+.drawer-create-note {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawer {
+  width: fit-content;
+  height: 100%;
+}
+
+.drawers {
+  width: 0%;
+  height: 0%;
+}
+
+.outerDrawer {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.outerDrawers {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.outerDrawerDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hold {
+  width: 100%;
+}
+
+.outerDrawerDivs {
+  width: 80%;
+}
+
+.buttonBackground {
+  background-color: #eed793 !important;
+}
+
+.Note {
+  width: 80%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.Notes {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.createNote {
+  width: 80%;
+  height: 10%;
+}
+
+.createNotes {
+  width: 100%;
+  height: 30%;
+}
+
+.create-note-label {
+  margin-top: 30px;
+}
+
+.note {
+  width: 100%;
+  height: 15%;
+}
+
+// @media (max-width: 360px) {
+//   .note {
+//     display: flex;
+//     justify-content: center;
+//   }
+// }
+
+.notes {
+  width: 100%;
+  height: fit-content;
+}
+
+.create-note {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// @media (max-width: 360px) {
+//   .create-note {
+//     width: 100%;
+//   }
+// }
+
+.icons {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-create-note {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  margin-top: 35px;
+}
+
+.iconsDiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+.formInput {
+  display: flex;
+}
+
+.formCreateNote {
+  width: 80%;
+}
+
+.textField {
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.pinForm {
+  display: flex;
+  width: 120px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.card {
+  width: 600px;
+  height: fit-content;
+}
+
+// @media (max-width: 360px) {
+//   .card {
+//     width: 100%;
+//     height: fit-content;
+//   }
+// }

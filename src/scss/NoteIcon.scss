@@ -1,0 +1,37 @@
+.note_icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1300;
+}
+
+.color {
+  margin: 10px;
+}
+
+.delete_icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.disabledDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+#input {
+  border: none;
+  outline: none;
+}
+
+.labelPopper {
+  z-index: 8000;
+}
+
+.emailName {
+  margin-left: 20px;
+}
